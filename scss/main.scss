@@ -1,0 +1,308 @@
+@use 'colors';
+@use 'fonts';
+@use 'animations';
+
+
+/* Classes reutilizáveis */
+
+.bg-gray{
+    background-color: #1F242D;
+}
+
+.link{ 
+    color: colors.$light-green;
+    font-weight: 600;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+body{
+    line-height: fonts.$font-size-body;
+    font-family: fonts.$font-family;
+    background: url('/imagens/bg.png') no-repeat,colors.$background-color;
+    background-position: top -5px right -600px;
+}
+
+
+/* Body Media Queries */
+
+@media (min-width: 900px){
+    body{
+        background-size: cover;
+        background-position: center top -350px;
+    }
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+.header-nav{
+ background-color: colors.$navbar-background;
+ padding: 1rem;
+ border-radius: 3px;
+ width: 300px;
+ margin: 15px 0 0 0;
+}
+
+.header-nav__nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    
+    a{
+        color: colors.$text-color;
+        text-decoration: none;
+
+        &:hover{
+            color: colors.$light-green;
+            font-weight: fonts.$fw-semi-bold;
+        }
+    }
+    
+}
+
+
+/* Main Styles */
+
+.main{
+    margin: 2em 0 0 0;
+    padding: 1rem 0;
+}
+
+.intro-text{
+    
+    h1{
+        color: colors.$text-color;
+        font-size: fonts.$font-size-h1;
+        line-height: 150%;
+        text-align: center;
+    }
+}
+
+
+/* Intro text Media Queries */
+
+@media (min-width: 900px){
+    .intro-text{
+        min-height: 300px;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        h1{
+            font-size: 3rem;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    .intro-text{
+        width: 60%;
+        margin: 5rem auto 5rem auto;
+
+        h1{
+            font-size: 4rem;
+        }
+    }
+}
+
+
+/* About us styles */
+
+
+.about-us{
+    margin: 1rem 0 1rem 0;
+}
+
+.about-us__content{
+    padding: 3rem 1rem;
+}
+
+.about-us__content{
+
+    h2{
+        text-align: center;
+        font-size: fonts.$font-size-h2;
+        color: colors.$text-color;
+        margin: 2rem 0 2rem 0;
+        color: colors.$light-green;
+        font-weight: fonts.$fw-semi-bold;
+    }
+
+    p{
+        color: colors.$text-color;
+        line-height: 150%;
+        font-size: fonts.$font-size-p;
+        letter-spacing: 0.5px;
+        margin-bottom: 2rem;
+    }
+}
+
+.about-us__text{
+    padding: 0 1rem;
+}
+
+
+/* about-us Media queries */
+
+@media (min-width: 900px){
+
+    .about-us__content{
+        display: flex;
+        align-items: center;
+
+        h2{
+            font-size: 2.5rem;
+            text-align: left;
+        }
+
+        .about-img{
+            width: 50%;
+        }
+    }
+
+    .about-us__comeco{
+        display: flex;
+        flex-flow: row-reverse;
+    }
+     
+    .about-us__text{
+        padding: 0 1.5rem;
+    }
+}
+
+@media (min-width: 1400px){
+    .about-us__content{
+        width: 80%;
+        margin: 0 auto;
+
+        h2{
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            
+        }
+    }
+
+    .about-us__text{
+        padding: 0 3rem;
+    }
+}
+
+@media (min-width: 1600px){
+    .about-us__content{
+
+        h2{
+            font-size: 4rem;
+            margin-bottom: 4rem;
+            
+        }
+    }
+
+    .about-us__text{
+        padding: 0 3rem;
+    }
+}
+
+/* Footer Styles */
+
+.footer{
+    p{
+        color: colors.$text-color;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    width: 60%;
+    margin: 0 auto;
+
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+        color: colors.$primary-color;
+
+        &:hover{
+            color: colors.$light-green;
+        }
+    }
+
+}
+
+
+/* Footer-nav Media Queries */
+
+@media (min-width: 900px){
+    .footer__nav{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1400px){
+    .footer__nav{
+        width: 20%;
+    }
+}
+
+
+/*=============================================
+=            Tipywriter effect            =
+=============================================*/
+
+span {
+    border-right: .08em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+
+/*=====  End of Tipywriter effect  ======*/
+
+
+
+/*=============================================
+=            Scrollbar Styles            =
+=============================================*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Background */
+  ::-webkit-scrollbar-track {
+    background-color: colors.$background-color;
+  
+  }
+   
+  /* Scroll bar handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(92,208,163);
+background: linear-gradient(170deg, rgba(92,208,163,1) 0%, rgba(82,233,125,1) 73%, rgba(74,251,98,1) 100%);
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+
+  }
+
+/*=====  End of Scrollbar Styles  ======*/
+
+
+
