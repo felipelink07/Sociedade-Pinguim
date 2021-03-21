@@ -1,4 +1,4 @@
-# Sociedade-Pinguim
+# Sociedade-Pinguim / Penguin Society
 Site oficial da comunidade Pinguim de desenvolvedores de amantes de Linux
 
 ### Objetivo
