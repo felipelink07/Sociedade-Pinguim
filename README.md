@@ -3,16 +3,13 @@ Site oficial da comunidade Pinguim de desenvolvedores de amantes de Linux
 
 ### Objetivo
 
-Estudo de design responsivo usando HTML, CSS e Javascript seguindo os curso [**conquering-responsive-layouts**](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/233002-introduction/1007804-intro-why-the-course-is-formatted-in-this-way)
-ministrado pelo professor e produtor de conteúdo **Kevin Powell**
+Criação da págia para Sociedade Pinguim, um grupo de estudantes e desenvolvedores de software que promovem discussões e temas relacionados ao universo linux, programação e jogos.
 
-### Modificações pessoais no projeto
+O objetivo do projeto seria fazer o redesign do portal do projeto das redes sociais.Primeiramente inicie o design e em seguida desenvolvi todas as telas com html CSS puro, implementando somente soluções javascript de outras fontes para animações na home.
 
-Modifiquei cores layout de todo o exercício, criei um menu responsivo e adicionei um tema para o projeto.
+### Detalhes do projeto de design
 
-### Código
-
-Fiz uma refatoração de todo o código CSS para SASS, e modifiquei detalhes no HTML deixando o markup mais limpo.
+Detalhes do projeto de desing podem ser conferidos no meu portifólio [www.felipefelixdesigner.com/projetopinguim](#)
 
 ### Projeto online
 
