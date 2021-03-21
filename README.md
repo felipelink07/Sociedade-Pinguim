@@ -30,12 +30,16 @@ Fiz o deploy desse projeto no **Netfly** para que fique online para testes.
 
 The main goal is the redesign of the **Sociedade Pinguim project webpage**, a group of studants and developers whom love linux any kind of subject about opensource software, programming and games.Firts I started the design using Figma, them codding the HTML and CSS, only using some external javascript solutions for the home text animation.
 
-This is a total mobile first page project aproach.
+This is a total mobile first aproach.
 
 
 ### Design process
 
 To see all the process and design details acess my portifolio at [www.felipefelixdesigner.com/projetopinguim](#)
+
+### Online project
+
+The page is online at **Netfly** and can be accessed at [www.projetosociedadepinguim.netfly.app](https://projetosociedadepinguim.netlify.app/)
 
 
 ### Imagens do projeto / Project images
