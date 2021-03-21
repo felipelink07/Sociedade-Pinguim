@@ -1,6 +1,8 @@
 # Sociedade-Pinguim
 Site oficial da comunidade Pinguim de desenvolvedores de amantes de Linux
+
 ### Objetivo
+
 Estudo de design responsivo usando HTML, CSS e Javascript seguindo os curso [**conquering-responsive-layouts**](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/233002-introduction/1007804-intro-why-the-course-is-formatted-in-this-way)
 ministrado pelo professor e produtor de conteúdo **Kevin Powell**
 
@@ -20,4 +22,18 @@ Fiz o deploy desse projeto no **Netfly** para que fique online para testes.
 
 ### Imagens do projeto
 
-![](imagens/github/home.png)
+Home
+
+![](imagens/github/Home.png)
+
+Downloads Page
+
+![](imagens/github/Downloads.png)
+
+Tutorial page
+
+![](imagens/github/Tutoriais.png)
+
+Tutorial Post
+
+![](imagens/github/tutorialpost.png)
