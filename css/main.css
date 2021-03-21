@@ -20,7 +20,7 @@
 body {
   line-height: 1rem;
   font-family: "Cairo", sans-serif;
-  background: url("/imagens/bg.jpg") no-repeat, #222831;
+  background: url("/imagens/bg.png") no-repeat, #222831;
   background-position: top -5px right -600px;
 }
 
