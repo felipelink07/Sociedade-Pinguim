@@ -21,7 +21,7 @@
 body{
     line-height: fonts.$font-size-body;
     font-family: fonts.$font-family;
-    background: url('/imagens/bg.png') no-repeat,colors.$background-color;
+    background: url('') no-repeat,colors.$background-color;
     background-position: top -5px right -600px;
 }
 
@@ -207,6 +207,145 @@ body{
     }
 }
 
+
+/*Equipe*/
+
+.equipe{
+    margin: 50px 0 0 0;
+    h2{
+        font-size: fonts.$font-size-h2;
+        color: colors.$primary-color;
+        text-align: center;
+    }
+
+    p{
+        font-size: fonts.$font-size-p;
+        text-align: center;
+        color: colors.$text-color;
+        width: 80%;
+        margin: 40px auto;
+        line-height: 160%;
+    }
+}
+
+
+
+
+.equipe__cards-card{
+    background-color: colors.$light-grey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto 50px auto;
+    border-radius: 5px;
+    padding: 50px 0 0 0;
+}
+
+.equipe__card--body{
+     text-align: center;
+
+     h4{
+         margin: 40px 0 0 0;
+         font-size: 2.3rem;
+         color: colors.$light-green;
+     }
+
+     p{
+        margin: 40px auto;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        color: colors.$text-color;
+        text-align: center;
+        width: 100%;
+     }
+}
+
+.equip__card--footer{
+    background-color: #49576D;
+    width: 100%;
+    padding: 25px 0;
+    border-radius: 0 0 5px 5px;
+}
+
+
+.card__footer--icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.card__footer--icons a{
+    color: colors.$text-color;
+    font-size: 1.5rem;
+}
+
+
+
+/* Equipe media queries */
+
+
+@media (min-width: 900px){
+
+    .equipe{
+        margin-top: 100px;
+
+        h2{
+            font-size: 3rem;
+            color: colors.$light-green;
+        }
+
+    }
+
+    .equipe__cards{
+        width: 80%;
+        margin: 60px auto 100px auto;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .equipe__cards-card{
+        width: 46%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 1400px){
+    .equipe__cards{
+      width: 90%;
+    }
+
+    .equipe__cards-card{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1600px){
+    .equipe__cards{
+    width: 80%;
+
+    }
+
+    .equipe__cards-card{
+        width: 300px;
+    }
+}
+
+
+@media (min-width: 1900px){
+    .equipe__cards{
+    width: 80%;
+
+    }
+
+    .equipe__cards-card{
+        width: 350px;
+    }
+}
+
 /* Footer Styles */
 
 .footer{
@@ -238,6 +377,8 @@ body{
     }
 
 }
+
+
 
 
 /* Footer-nav Media Queries */
@@ -298,9 +439,9 @@ background: linear-gradient(170deg, rgba(92,208,163,1) 0%, rgba(82,233,125,1) 73
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  //::-webkit-scrollbar-thumb:hover {
 
-  }
+  //}
 
 /*=====  End of Scrollbar Styles  ======*/
 

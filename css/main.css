@@ -20,7 +20,7 @@
 body {
   line-height: 1rem;
   font-family: "Cairo", sans-serif;
-  background: url("/imagens/bg.jpg") no-repeat, #222831;
+  background: url("") no-repeat, #222831;
   background-position: top -5px right -600px;
 }
 
@@ -28,17 +28,9 @@ body {
 @media (min-width: 900px) {
   body {
     background-size: cover;
-    background-position: center top -200px;
+    background-position: center top -350px;
   }
 }
-
-@media (min-width: 1400px) {
-  body {
-    background-size: contain;
-    background-position: top left;
-  }
-}
-
 .header {
   display: flex;
   flex-flow: column;
@@ -61,12 +53,10 @@ body {
 .header-nav__nav-links a {
   color: #ffff;
   text-decoration: none;
-  font-weight: 500;
-  transition: color .3s ease-in-out;
 }
 .header-nav__nav-links a:hover {
   color: #5CD0A3;
-  transition: color .3s ease-in-out;
+  font-weight: 600;
 }
 
 /* Main Styles */
@@ -179,6 +169,122 @@ body {
     padding: 0 3rem;
   }
 }
+/*Equipe*/
+.equipe {
+  margin: 50px 0 0 0;
+}
+.equipe h2 {
+  font-size: 2.25rem;
+  color: #58A285;
+  text-align: center;
+}
+.equipe p {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffff;
+  width: 80%;
+  margin: 40px auto;
+  line-height: 160%;
+}
+
+.equipe__cards-card {
+  background-color: #363F4F;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 500px;
+  margin: 0 auto 50px auto;
+  border-radius: 5px;
+  padding: 50px 0 0 0;
+}
+
+.equipe__card--body {
+  text-align: center;
+}
+.equipe__card--body h4 {
+  margin: 40px 0 0 0;
+  font-size: 2.3rem;
+  color: #5CD0A3;
+}
+.equipe__card--body p {
+  margin: 40px auto;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #ffff;
+  text-align: center;
+  width: 100%;
+}
+
+.equip__card--footer {
+  background-color: #49576D;
+  width: 100%;
+  padding: 25px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.card__footer--icons {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.card__footer--icons a {
+  color: #ffff;
+  font-size: 1.5rem;
+}
+
+/* Equipe media queries */
+@media (min-width: 900px) {
+  .equipe {
+    margin-top: 100px;
+  }
+  .equipe h2 {
+    font-size: 3rem;
+    color: #5CD0A3;
+  }
+
+  .equipe__cards {
+    width: 80%;
+    margin: 60px auto 100px auto;
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .equipe__cards-card {
+    width: 46%;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .equipe__cards {
+    width: 90%;
+  }
+
+  .equipe__cards-card {
+    width: 300px;
+  }
+}
+@media (min-width: 1600px) {
+  .equipe__cards {
+    width: 80%;
+  }
+
+  .equipe__cards-card {
+    width: 300px;
+  }
+}
+@media (min-width: 1900px) {
+  .equipe__cards {
+    width: 80%;
+  }
+
+  .equipe__cards-card {
+    width: 350px;
+  }
+}
 /* Footer Styles */
 .footer p {
   color: #ffff;
@@ -229,7 +335,6 @@ span {
   }
 }
 /*=====  End of Tipywriter effect  ======*/
-
 /*=============================================
 =            Scrollbar Styles            =
 =============================================*/
