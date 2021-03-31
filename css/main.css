@@ -20,14 +20,15 @@
 body {
   line-height: 1rem;
   font-family: "Cairo", sans-serif;
-  background: url("") no-repeat, #222831;
-  background-position: top -5px right -600px;
+  background: url("/imagens/bg.jpg") no-repeat, #222831;
+  background-position: top 0px left -500px;
 }
 
 /* Body Media Queries */
 @media (min-width: 900px) {
   body {
     background-size: cover;
+    background: url("/imagens/bg.jpg") no-repeat, #222831;
     background-position: center top -350px;
   }
 }
