@@ -57,10 +57,11 @@ body{
     a{
         color: colors.$text-color;
         text-decoration: none;
+        transition: color .3s ease-in-out;
 
         &:hover{
             color: colors.$light-green;
-            font-weight: fonts.$fw-semi-bold;
+            transition: color .3s ease-in-out;
         }
     }
     
