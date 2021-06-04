@@ -77,11 +77,20 @@ body{
 }
 
 .intro-text{
-    
+    padding: 01rem;
     h1{
         color: colors.$text-color;
-        font-size: fonts.$font-size-h1;
+        font-size: 3rem;
         line-height: 150%;
+        text-align: center;
+    }
+
+    p{
+        color: colors.$text-color;
+        line-height: 150%;
+        font-size: fonts.$font-size-p;
+        letter-spacing: 0.5px;
+        margin: 2rem;
         text-align: center;
     }
 }
@@ -96,7 +105,7 @@ body{
         width: 80%;
         margin: 0 auto;
         h1{
-            font-size: 3rem;
+            font-size: 6rem;
         }
     }
 }
@@ -104,10 +113,26 @@ body{
 @media (min-width: 1400px){
     .intro-text{
         width: 60%;
-        margin: 5rem auto 5rem auto;
+        margin: 2rem auto 2rem auto;
 
         h1{
-            font-size: 4rem;
+            font-size: 6rem;
+        }
+    }
+}
+
+@media (min-width: 1600px){
+    .intro-text{
+        width: 50%;
+        margin: 2rem auto 2rem auto;
+
+        h1{
+            font-size: 6rem;
+        }
+
+        p{
+            width: 70%;
+            margin: 2rem auto;
         }
     }
 }

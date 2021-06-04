@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "Somos um grupo de programadores amantes do open source e de Linux.Venha fazer parte da nossa comunidade"];
+    var dataText = [ "Bem vindo a Sociedade Pinguim"];
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
