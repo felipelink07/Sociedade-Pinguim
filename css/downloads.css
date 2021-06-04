@@ -70,7 +70,7 @@ body {
 .download {
   margin: 50px 0 0 0;
 }
-.download h2 {
+.download h1 {
   font-size: 2.25rem;
   color: #58A285;
   text-align: center;
@@ -105,7 +105,7 @@ body {
   width: 180px;
   height: auto;
 }
-.download__card--body h4 {
+.download__card--body h3 {
   margin: 30px 0 0 0;
   font-size: 2.5rem;
   color: #5CD0A3;
@@ -154,7 +154,7 @@ body {
   .download {
     margin-top: 100px;
   }
-  .download h2 {
+  .download h1 {
     font-size: 3rem;
     color: #5CD0A3;
   }
