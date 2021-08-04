@@ -159,7 +159,7 @@ body {
     text-align: left;
   }
   .about-us__content .about-img {
-    width: 50%;
+    width: 100%;
   }
 
   .about-us__comeco {
@@ -169,6 +169,7 @@ body {
 
   .about-us__text {
     padding: 0 1.5rem;
+    width: 100%;
   }
 }
 @media (min-width: 1400px) {
@@ -183,6 +184,7 @@ body {
 
   .about-us__text {
     padding: 0 3rem;
+    width: 100%;
   }
 }
 @media (min-width: 1600px) {
