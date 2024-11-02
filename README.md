@@ -37,11 +37,6 @@ This is a total mobile first aproach.
 
 To see all the process and design details acess my portifolio at [www.felipefelixdesigner.com/projetopinguim](#)
 
-### Online project
-
-The page is online at **Netfly** and can be accessed at [www.projetosociedadepinguim.netfly.app](https://projetosociedadepinguim.netlify.app/)
-
-
 ### Imagens do projeto / Project images
 
 Home
